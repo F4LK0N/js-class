@@ -1,8 +1,60 @@
-<html>
-    
-    testxtdasd
-    asd
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>TT</title>
     
-    funcA
+    <link rel="stylesheet" type="text/css" href="_css/main.css">
+</head>
+<body>
+    
+    <section class="auth">
+        <h1>Login</h1>
+    </section>
+    
+    <section class="news">
+        <h1>Noticias</h1>
+        <?php
+            get_news();
+        ?>
+        
+        <div>
+            <a href='news/news1.htm'>
+            <h2>Title</h2>
+            Description
+            </a>
+        </div>
+        <div vcard='news' id='news-global'>
+            <h2>Title</h2>
+            Description
+        </div>
+        <div vcard='news' id='news-global'>
+            <h2>Title</h2>
+            Description
+        </div>
+    </section>
+    
+    <section class="news" id='news-local'>
+        <h1>Noticias</h1>
+        
+        <div >
+            <h2>Title</h2>
+            Description
+        </div>
+        <div vcard='news' id='news-global'>
+            <h2>Title</h2>
+            Description
+        </div>
+        <div vcard='news' id='news-global'>
+            <h2>Title</h2>
+            Description
+        </div>
+    </section>
+    
+    <script src="_js/main.js"></script>
+</body>
 </html>

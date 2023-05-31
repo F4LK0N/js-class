@@ -1,0 +1,22 @@
+body > section.news {
+    
+    border:2px dashed red;
+    padding:10px;
+    margin:30px;
+}
+
+body > section.news > div {
+    
+    border:1px solid red;
+    padding:5px;
+    margin:0;
+    width: 30%;
+    display: inline-block;
+}
+
+body > section.news#news-local {
+    
+    border-color: blue;
+    padding:10px;
+    margin:30px;
+}
